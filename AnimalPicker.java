@@ -14,12 +14,12 @@ public class AnimalPicker
             String animal = input.nextLine();
             if (animal.equalsIgnoreCase("Cat"))
             {
-                System.out.println("CAT ASCII ART HERE");
+                System.out.println("        __..--\'\'``---....___   _..._    __\n /// //_.-\'    .-/\";  `        ``<._  ``.\'\'_ `. / // /\n///_.-\' _..--.\'_    \\                    `( ) ) // //\n/ (_..-\' // (< _     ;_..__               ; `\' / ///\n / // // //  `-._,_)\' // / ``--...____..-\' /// / //\n");
                 error = true;
             }
             else if (animal.equalsIgnoreCase("Dog"))
             {
-                System.out.println("DOG ASCII ART HERE");
+                System.out.println("                              .-.\n     (___________________________()6 `-,\n     (   ______________________   /\'\'\"`\n     //\\\\                      //\\\\\njgs  \"\" \"\"     ");
                 error = true;
             }
             else
