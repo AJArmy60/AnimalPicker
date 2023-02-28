@@ -4,7 +4,7 @@ public class AnimalPicker
 {
     public static void main(String[] args)
     {
-        System.out.println("Please chose either a cat or dog:");
+        System.out.println("Please chose either a cat, dog, or fish:");
 
         Scanner input = new Scanner(System.in);
         boolean error = false;
@@ -20,6 +20,11 @@ public class AnimalPicker
             else if (animal.equalsIgnoreCase("Dog"))
             {
                 System.out.println("                              .-.\n     (___________________________()6 `-,\n     (   ______________________   /\'\'\"`\n     //\\\\                      //\\\\\njgs  \"\" \"\"     ");
+                error = true;
+            }
+            else if (animal.equalsIgnoreCase("Fish"))
+            {
+                System.out.println("\n _________         .    .\n(..       \\_    ,  |\\  /|\n \\       O  \\  /|  \\ \\/ /\n  \\______    \\/ |   \\  / \n     vvvv\\    \\ |   /  |\n     \\^^^^  ==   \\_/   |\n      `\\_   ===    \\.  |\n      / /\\_   \\ /      |\n      |/   \\_  \\|      /\n snd         \\________/");
                 error = true;
             }
             else
