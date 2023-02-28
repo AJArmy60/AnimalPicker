@@ -17,5 +17,9 @@ public class AnimalPicker
         {
             System.out.println("DOG ASCII ART HERE");
         }
+        else
+        {
+            System.out.println("ERROR");
+        }
     }
 }
